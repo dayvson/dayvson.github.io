@@ -27,81 +27,44 @@
     }
 
     p {
-      font-family: Monaco, monospace;
+      font-family: 'Roboto', sans-serif;
       font-size: 1.3em;
+      font-weight: 100;
     }
 
     span {
       border-left: 2px solid;
     }
 
-    .cursor {
-      -webkit-animation: blink .75s linear infinite;
-      -moz-animation: blink .75s linear infinite;
-      -ms-animation: blink .75s linear infinite;
-      -o-animation: blink .75s linear infinite;
-      animation: blink .75s linear infinite;
+    #head {
+      margin-top: 80px;
     }
 
-    @-webkit-keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 1; }
-      50.01% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-
-    @-moz-keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 1; }
-      50.01% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-
-    @-ms-keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 1; }
-      50.01% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-
-    @-o-keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 1; }
-      50.01% { opacity: 0; }
-      100% { opacity: 0; }
-    }
-
-    @keyframes blink {
-      0% { opacity: 1; }
-      50% { opacity: 1; }
-      50.01% { opacity: 0; }
-      100% { opacity: 0; }
+    IMG.me {
+      display: block;
+      max-height: 150px;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
   <title>dayvson.me</title>
 </head>
 <body>
   <center>
-    <p>Hey, I'm Maxwell Dayvson Da Silva. </p>
-    <p>I'm based in </p>
-    <p>New York, currently working at <a href="http://nytimes.com">The New York Times</a>.</p>
-    <p>I lead our engineering teams on Video, Mobile and Web platforms to create great products.</p> 
-    <p>I also write code for fun.</p>
+    <div id="head">
+      <img class="me" src="https://cloud.githubusercontent.com/assets/244265/19839303/c5aafb66-9eb5-11e6-9900-792e41e6d8d3.png"></img>
+      <br/>
+      <h2>Hello, I'm Maxwell Dayvson Da Silva.</h2>
+      <br/>
+    </div>
+    
+    <p>I'm based in New York, currently working at <a href="http://nytimes.com">The New York Times</a>.</p>
+    <p>I lead our engineering teams on <a href="http://www.nytimes.com/video">Video</a>, Mobile (<a href="https://play.google.com/store/apps/details?id=com.nytimes.android">Android</a> and <a href="https://itunes.apple.com/us/app/nytimes/id284862083?ls=1&mt=8">iOS</a>) and Web platforms to create great products.</p> 
     <p>You can see more about my career at my <a href="https://linkedin.com/in/dayvson">LinkedIn</a>.</p>
     <p>You can check my book <a href="http://redis-essentials.github.io/book/">Redis Essentials</a>.</p>
     <p>You can also check some of my open source contributions/projects <a href="https://github.com/dayvson">Github</a>.</p>
-    
-    
-    
     <br/>
-    <span class="cursor"></span></p>
+    </p>
   </center>
-  <script type="text/javascript" charset="utf-8">
-if (window.location.protocol !== 'https:') {
-    window.location = 'https://' + window.location.hostname + window.location.pathname + window.location.hash;
-}
-  </script>
-
-  
 </body>
 </html>
